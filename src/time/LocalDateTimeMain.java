@@ -30,6 +30,8 @@ public class LocalDateTimeMain {
         //비교
         System.out.println("현재 날짜시간이 지정 날짜시간보다 이전인가? " + nowDt.isBefore(ofDt));
         System.out.println("현재 날짜시간이 지정 날짜시간보다 이후인가? " + nowDt.isAfter(ofDt));
+        // isEquals : 단순히 비교 대상이 시간적으로 같으면 true 반환
+        // equals : 객체의 타입, 타임존 등등 내부 모든 요소와 같아야 한다.
         System.out.println("현재 날짜시간과 지정 날짜시간이 같은가? " + nowDt.isEqual(ofDt));
     }
 }
