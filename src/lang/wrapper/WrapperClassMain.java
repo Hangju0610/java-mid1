@@ -19,8 +19,8 @@ public class WrapperClassMain {
         System.out.println("longValue = " + longValue);
 
         System.out.println("비교");
-        System.out.println("==: " + (newInteger == integerObj));
-        System.out.println("equals: " + newInteger.equals(integerObj));
+        System.out.println("==: " + (newInteger == integerObj)); // false
+        System.out.println("equals: " + newInteger.equals(integerObj)); // true
 
         // Integer는 ~128에서 127 범위를 미리 생성해준다.
         Integer Integer1 = Integer.valueOf(10);
