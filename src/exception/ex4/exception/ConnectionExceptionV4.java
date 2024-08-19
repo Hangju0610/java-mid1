@@ -1,4 +1,4 @@
-package exception.ex4;
+package exception.ex4.exception;
 
 public class ConnectionExceptionV4 extends NetworkClientExceptionV4 {
     private final String address;
